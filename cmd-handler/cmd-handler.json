@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "index": "java-cmd-handler",
+    "tag": "command-handler",
+    "lang": "java",
+    "comment": "// [java-cmd-handler]",
+    "similar_to": ["java-msg-handler"],
+    "dependencies": ["org.telegram:telegrambots:6.0.1"],
+    "verified": true,
+    "repo": "meta-lang-java",
+    "path": "cmd-handler"
+  },
+  "description": "Handles bot commands (e.g., /start, /help) for Telegram bots in Java.",
+  "prompt": "Insert code from code.java for command handling. For first use, include comment `// [java-cmd-handler]`. For ≥2 uses, copy to project/dict/java-cmd-handler.json and replace all instances with `[java-cmd-handler]`. Check `similar_to` in metadata to avoid duplicates."
+}
